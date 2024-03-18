@@ -1,0 +1,142 @@
+h1{
+    font-family: "Assistant", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: rgb(230, 230, 230);
+}
+
+
+h2{
+    font-family: "Assistant", sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    color: rgb(230, 230, 230);
+}
+
+p{
+    font-family: "Assistant", sans-serif;
+    font-weight: 350;
+    font-size: 17px;
+    color: rgba(228, 224, 224, 0.822);
+}
+.homepage {
+    margin-top: 75px;
+    background-color: #0f172a;
+    display: flex;
+    /* Dynamically calculate margin-left based on viewport width */
+    margin-left: calc(10vw + 50px);
+    margin-right: calc(5vw);
+    
+}
+
+@media (max-width: 1200px) {
+    .homepage {
+        /* Adjust the base margin-left for smaller screens */
+        margin-left: calc(8vw + 35px);
+    }
+}
+
+
+
+.left-side{
+    margin-top: -25px;
+    flex: 50%;
+    margin-right: 10px;
+}
+
+.title{
+    color: #e5e7eb;
+}
+
+.name{
+    margin-bottom: -10px;
+}
+
+.role{
+margin-bottom: 3px;
+}
+
+.description{
+    margin-bottom: 50px;
+}
+
+.selfie{
+    margin-bottom: 100px;
+    height: 400px;
+}
+@media (max-width: 1000px){
+    .description{
+        margin-bottom: 20px;
+    }
+    .selfie-div{
+        display: none;
+    }
+}
+
+.header-icons-section{
+    border-radius: 2px; /* delete later */
+
+}
+
+.header-icons{
+    height: 32px;
+    border-radius: 16px;
+    display: block;
+}
+
+.right-side{
+    flex: 50%;
+    
+}
+
+
+.homepage-about{
+    color: #e5e7eb
+}
+
+
+@media (max-width: 1000px){
+    .homepage{
+        display: block;
+    }
+    
+    .homepage-about{
+        margin-top: 80px;
+    }
+    .homepage-about-title{
+        margin-bottom: 30px
+    }
+}
+
+.homepage-experience{
+    display: flex;
+    
+}
+
+.homepage-experience-title{
+    margin-top: 90px;
+}
+
+.homepage-experience-date{
+    font-family: "Assistant", sans-serif;
+    font-weight: 50px;
+    font-size: 20px;
+    flex: 30%;
+    color: rgba(204, 200, 200, 0.822);
+}
+
+
+.homepage-experience-role{
+    font-family: "Assistant", sans-serif;
+    font-weight: 50px;
+    font-size: 15px;
+    flex: 70%;
+    color: rgb(206, 203, 203);
+}
+.homepage-experience-role-description{
+    font-family: "Assistant", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(230, 230, 230, 0.562);
+}
+
